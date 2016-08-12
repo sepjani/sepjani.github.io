@@ -31,10 +31,9 @@ html {
     padding: 15px;
 	font-size:19px;
 	
-  font-family :  Blogger_Sans
+    font-family :  Blogger_Sans
 }
-.menu ul {
-	columns: 2;
+.menu ul { 
     list-style-type: none;
     margin: 0;
     padding: 0;
