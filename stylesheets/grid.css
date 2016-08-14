@@ -29,9 +29,14 @@ html {
     background-color: #3cc;
     color: #ffffff;
     padding: 15px;
-	font-size:19px;
-	
+	font-size:19px; 
     font-family :  Blogger_Sans
+} 
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
 .menu ul { 
     list-style-type: none;
@@ -40,9 +45,37 @@ html {
 }
 .menu li {
     padding: 25px;
-    margin-bottom: 9px;
-   
+    margin-bottom: 0; 
 }
 .menu li:hover {
     background-color: #FFFD78;
 }
+
+.chip { 
+	background:	#e0e0e0;
+	border-radius:16px;
+	padding:  2px;
+	padding-left: 13px;
+	padding-right: 13px;
+	border:1px solid #e0e0e0;	
+	display: inline-block;
+	font-size: 13px;
+	font-color: #e0e0e0;
+	margin: 3px;	
+}
+.chip_contact {   
+	float:right;
+	text-align: right;
+	position:static;
+	background:	#FCFCFC;
+	border-radius: 5px;
+	padding:  8px;
+	padding-left: 13px;
+	padding-right: 13px; 	
+	display: inline-block;
+	font-size: 14px;
+	margin: 14px;	
+	font-color: #e0e0e0;
+}
+  
+ 

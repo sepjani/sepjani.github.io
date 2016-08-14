@@ -1,11 +1,16 @@
- 
-
 @font-face
 {
     font-family: Blogger_Sans ;
     src: local("PT-Sans"), /* проверяем наличие шрифта в ОС пользователя */
     url(../fonts/Blogger_Sans.otf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
 }
+
+@font-face
+{
+    font-family: LittleBird ;
+    src: local("LittleBird"), /* проверяем наличие шрифта в ОС пользователя */
+    url(../fonts/LittleBird.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+} 
 
 @font-face {
   font-family: 'Noto Sans';
@@ -86,7 +91,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:39px;
+  font-size:59px;
+  font-family: NotoSans
 }
 
 h2 {
@@ -122,8 +128,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:870px;
-  margin:0 auto;
+  width:820px;
+  margin: auto;
 }
 
 blockquote {
@@ -179,11 +185,13 @@ img {
 }
 
 header {
-  float:none;
-    position:static;
-    width:auto;
+  float: left;
+  position:static;
+  width:auto;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+ 
 
 header ul {
   list-style:none;
@@ -249,6 +257,7 @@ section {
   padding-bottom:50px;
 }
 
+
 small {
   font-size:11px;
 }
@@ -287,8 +296,6 @@ footer {
 
   section {
 	 
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
@@ -341,23 +348,22 @@ img1 {
           margin-left: auto;
           margin-right: auto;
           z-index: 1;"
-}
-
-twocolumn ul {display:block;width:49%;float:left;}
+}  
 
 ul{
-  width:820px;
-  margin-bottom:20px;
+  width:830px; 
+  margin-bottom:20px; 
   overflow:hidden; 
 }
 li{
   line-height:1.5em;
   border-bottom:0.5px solid #0cc;
-  float:left;
+  float:left;  
   display:inline;
-  
 }
-#double li  { width:50%;} <span class="code-comment">/* 2 col */</span>
+#double li  { 
+	width: 50%;
+} 
 
 
 @media print {
